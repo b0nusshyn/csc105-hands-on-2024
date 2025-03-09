@@ -1,0 +1,8 @@
+body, html{
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
