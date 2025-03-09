@@ -1,0 +1,66 @@
+.shopping-list {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .add-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  li.bought {
+    background-color: #d4edda;
+    text-decoration: line-through;
+  }
+  
+  .buttons button {
+    margin-left: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: yellow;
+  }
+  
+  .remove-btn {
+    background-color: red;
+    color: white;
+  }
+  
