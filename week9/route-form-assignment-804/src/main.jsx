@@ -7,6 +7,7 @@ import SignUpPage from "./pages/SignUpPage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import FavoritePage from "./pages/FavoritePage.jsx";
 import FavoriteDetail from "./pages/FavoriteDetailPage.jsx";
+import NotFoundPage from "./pages/NotFoundPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,9 @@ const router = createBrowserRouter([
   }, 
   {
     path: "/fav/:id", element: <FavoriteDetail />,
+  }, 
+  {
+    path: "*", element: <NotFoundPage />,
   }, 
 
   
